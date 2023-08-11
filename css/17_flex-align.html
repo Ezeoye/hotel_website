@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basics</title>
+    <style>
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            /* Cross axis align */
+            align-items: center;
+            /* Main axis align */
+            justify-content: center;
+            height: 50vh;
+        }
+
+        .item {
+background: #f4f4f4;
+border: #ccc solid 2px;
+margin: 10px;
+padding: 10px;
+text-align: center;
+border-radius: 10px;
+    /* flex 1; */
+        }
+    </style>
+</head>   
+<body> 
+    <div class="flex-container">
+        <div clas="item item-1">
+            <h3>item 1</h3>
+        </div>
+    </div> 
+
+        <div clas="item item-2">
+            <h3>item 2</h3>
+        </div>
+
+            <div clas="item item-3">
+                <h3>item 3</h3>
+            </div>
